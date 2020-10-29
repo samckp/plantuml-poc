@@ -1,0 +1,14 @@
+@startuml
+actor Source
+boundary Nokia
+control Admin
+entity Person
+database H2DB
+collections Office
+Source -> Nokia : To boundary
+Source -> Admin : To control
+Source -> Person : To entity
+Source -> H2DB : To database
+Source -> Office : To collections
+
+@enduml
