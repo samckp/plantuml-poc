@@ -1,0 +1,13 @@
+@startuml
+
+start
+
+if (Number Entered ?) then (yes)
+  :Calculate\nFactorial;
+else (no)
+  :wait for input
+  __sequence__ and __activity__ diagrams;
+endif
+
+stop
+@enduml
