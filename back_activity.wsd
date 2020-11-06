@@ -1,0 +1,9 @@
+@startuml
+start
+repeat :Enter employee number;
+:Submit;
+backward :Warning;
+note right: Employee number format E-XXX
+repeat while (Valid?) is (No) not (Yes)
+stop
+@enduml
